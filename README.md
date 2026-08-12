@@ -7,7 +7,8 @@ La última versión está en la sección [Releases](https://github.com/FENCHI5/P
 
 ## Cómo funciona
 - Instalás `PC-Controller-Setup.exe` en tu PC (Windows).
-- El programa corre en la bandeja del sistema y te muestra la IP de tu PC.
-- Desde el celular, en la misma red WiFi, te conectás a esa IP y controlás la PC.
+- El programa corre en la bandeja del sistema y te muestra una ventana con la **IP** y el **PIN** de tu PC.
+- Desde el celular, en la misma red WiFi, abrís el navegador y entrás a `http://<esa-IP>:8765`, ingresás el PIN, y ya podés controlar la PC.
 
 > La PC y el celular deben estar en la misma red WiFi.
+> El PIN evita que otro dispositivo de la red controle tu PC sin que lo autorices — se genera solo la primera vez y queda fijo.
